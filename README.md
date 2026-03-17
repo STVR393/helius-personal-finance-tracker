@@ -189,9 +189,3 @@ Overrides:
 ## Release Notes
 
 This repository is set up for binary distribution, not for publishing a library crate. Local build artifacts, demo databases, and machine-specific launchers should stay out of version control.
-
-CI is provided through GitHub Actions and validates:
-
-- formatting
-- tests
-- release build
