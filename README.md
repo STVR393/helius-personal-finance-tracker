@@ -9,24 +9,6 @@ Helius is a local-first personal finance tracker built in Rust with a full-scree
 - Practical workflow: accounts, transactions, budgets, recurring bills, reconciliation, and planning in one place
 - Scriptable: direct CLI commands plus JSON output for automation and export
 
-## Screenshots
-
-For the best first impression on GitHub, add these images under `docs/screenshots/` and embed them here:
-
-1. `planning-forecast.png`
-   Caption: `Cash-flow planning with a 90-day forecast, due bills, risk signals, and weekly opening balance chart.`
-2. `dashboard-overview.png`
-   Caption: `At-a-glance monthly income, expense, net flow, recent transactions, and budget snapshot.`
-3. `transactions-ledger.png`
-   Caption: `Transaction ledger with filters, edit flows, and a compact keyboard-first workflow.`
-
-Recommended capture rules:
-
-- Use a seeded sample database, not an empty state
-- Hide the full local DB path and username before publishing
-- Prefer realistic balances, categories, and recurring items
-- Keep the window clean and full-screen so the layout reads clearly
-
 ## What It Does
 
 - Full-screen terminal UI with a compact Bloomberg-style theme
