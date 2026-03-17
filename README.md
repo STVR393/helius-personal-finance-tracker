@@ -1,4 +1,4 @@
-# Helius: Local-First Personal Finance Tracker for Windows
+# Helius: Local-First Personal Finance Tracker
 
 Helius is a local-first personal finance tracker built in Rust with a full-screen terminal UI and direct CLI commands. It runs as a single executable, stores data in SQLite, and focuses on practical money tracking, budgeting, recurring bills, reconciliation, and cash-flow forecasting without any cloud dependency.
 
