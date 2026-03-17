@@ -3,7 +3,10 @@ name = "helius"
 version = "0.1.0"
 edition = "2021"
 description = "Fast local-first personal finance tracking with a terminal UI and SQLite storage"
+license = "MIT"
 readme = "README.md"
+repository = "https://github.com/STVR393/helius"
+homepage = "https://github.com/STVR393/helius"
 keywords = ["finance", "budget", "ledger", "tui", "sqlite"]
 
 [dependencies]

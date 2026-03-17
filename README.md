@@ -23,15 +23,19 @@ Helius is a fast, local-first personal finance tracker built in Rust. It runs as
 
 For most Windows users, the simplest path is:
 
-1. Download `helius.exe` from the latest GitHub release.
-2. Put it in a folder you keep for apps, for example `C:\Tools\Helius\`.
-3. Double-click it from Windows Terminal, or run it from a terminal with:
+1. Open the [GitHub Releases](https://github.com/STVR393/helius/releases) page.
+2. Download the latest Windows package, for example `helius-v0.1.0-windows-x86_64.zip`.
+3. Extract `helius.exe` into a folder you keep for apps, for example `C:\Tools\Helius\`.
+4. Launch it by double-clicking `helius.exe`, or from a terminal with:
 
 ```powershell
 .\helius.exe
 ```
 
 If you want to run it from anywhere, add that folder to your `PATH`.
+
+Release packages are built for local, single-user use and do not require any
+extra runtime or database server.
 
 ### Option 2: Build from source
 
@@ -58,6 +62,20 @@ If you want a `helius` command in your Cargo bin directory:
 
 ```powershell
 cargo install --path .
+```
+
+## Verify The Download
+
+After you download a release build, check that it starts and prints help:
+
+```powershell
+.\helius.exe --help
+```
+
+If you prefer to keep your data in a custom location, launch with:
+
+```powershell
+.\helius.exe --db C:\path\to\tracker.db
 ```
 
 ## Development
@@ -185,6 +203,10 @@ Overrides:
 
 - `--db <path>`
 - `HELIUS_DB_PATH`
+
+## License
+
+This project is released under the MIT License. See [LICENSE](LICENSE).
 
 ## Release Notes
 
