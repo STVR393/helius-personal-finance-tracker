@@ -1,6 +1,6 @@
-# Helius
+# Helius: Local-First Personal Finance Tracker for Windows
 
-Helius is a fast, local-first personal finance tracker built in Rust. It runs as a single executable, stores data in SQLite, and focuses on practical day-to-day money tracking without any cloud dependency.
+Helius is a local-first personal finance tracker built in Rust with a full-screen terminal UI and direct CLI commands. It runs as a single executable, stores data in SQLite, and focuses on practical money tracking, budgeting, recurring bills, reconciliation, and cash-flow forecasting without any cloud dependency.
 
 ## What It Does
 
@@ -24,7 +24,7 @@ Helius is a fast, local-first personal finance tracker built in Rust. It runs as
 For most Windows users, the simplest path is:
 
 1. Open the [GitHub Releases](https://github.com/STVR393/helius/releases) page.
-2. Download the latest Windows package, for example `helius-v0.1.0-windows-x86_64.zip`.
+2. Download the latest Windows package, for example `helius-v0.1.1-windows-x86_64.zip`.
 3. Extract `helius.exe` into a folder you keep for apps, for example `C:\Tools\Helius\`.
 4. Launch it by double-clicking `helius.exe`, or from a terminal with:
 

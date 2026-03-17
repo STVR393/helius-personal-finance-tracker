@@ -1,13 +1,14 @@
 [package]
 name = "helius"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
-description = "Fast local-first personal finance tracking with a terminal UI and SQLite storage"
+description = "Local-first personal finance tracker for Windows with a Rust CLI/TUI, SQLite storage, budgets, recurring bills, and cash-flow forecasting"
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/STVR393/helius"
 homepage = "https://github.com/STVR393/helius"
-keywords = ["finance", "budget", "ledger", "tui", "sqlite"]
+keywords = ["personal-finance", "budget-tracker", "ledger", "tui", "sqlite"]
+categories = ["command-line-utilities", "database"]
 
 [dependencies]
 chrono = { version = "0.4.42", features = ["clock", "serde"] }
