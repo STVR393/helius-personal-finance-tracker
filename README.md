@@ -13,7 +13,7 @@ Helius is a local-first personal finance tracker built in Rust with a full-scree
 
 ## What It Does
 
-- Full-screen terminal UI with a compact Bloomberg-style theme
+- Full-screen terminal UI with a compact Bloomberg style (I love their terminal :p) theme
 - Accounts, categories, income, expense, and transfer transactions
 - Recurring rules, reconciliation, budgets, and cash-flow planning
 - JSON output for scripting and CSV export for reporting
