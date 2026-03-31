@@ -4,7 +4,7 @@
 
 [Latest Release](https://github.com/STVR393/helius-personal-finance-tracker/releases) | [Quick Start](QUICKSTART.md) | [Wiki](wiki/Home.md)
 
-Helius is a local-first personal finance tracker with a Rust CLI/TUI and SQLite storage. It runs as a single binary and keeps data in one local database file.
+Helius is a local first personal finance tracker with a Rust CLI/TUI and SQLite storage. It runs as a single binary and keeps data in one local database file.
 
 Supported targets: Windows x86_64 and Linux x86_64.
 
